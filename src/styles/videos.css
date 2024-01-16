@@ -1,0 +1,46 @@
+.videos_logic{
+    display:flex; 
+    flex-wrap: wrap;      
+    justify-content: space-evenly;
+    margin-top: 10px; 
+   }
+
+
+.thumb img{
+    height: 200px;
+    width:350px;
+    border-radius: 20px;
+}
+
+
+.detail{
+    margin-top: 3px;
+    margin-bottom: 5px;
+    display: flex;
+    
+}
+.icon img{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+     margin-top: 10px;
+     
+    /* margin-left: -0px;  */
+    
+}
+.title1{
+    line-height: 20px;
+    padding-top: 10px;
+    padding-left: 12px;
+    margin-right: 0px;
+}
+#delete{
+    border: 0cap;
+    padding-left: 25px;
+    background-color: white;
+    font-size: 15px;
+    color: blue;
+}
+#delete:hover{
+    color: red;
+}
